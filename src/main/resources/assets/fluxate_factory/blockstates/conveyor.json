@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "fluxate_factory:block/conveyor", "uvlock": true },
+    "facing=east":  { "model": "fluxate_factory:block/conveyor", "y":  90, "uvlock": true },
+    "facing=south": { "model": "fluxate_factory:block/conveyor", "y": 180, "uvlock": true },
+    "facing=west":  { "model": "fluxate_factory:block/conveyor", "y": 270, "uvlock": true }
+  }
+}
