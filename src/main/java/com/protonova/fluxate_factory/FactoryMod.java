@@ -14,8 +14,9 @@ public class FactoryMod implements DedicatedServerModInitializer {
 	@Override
 	public void onInitializeServer(ModContainer mod) {
 		LOGGER.info("Starting Fluxate Factory");
-		BlockManager.initializeBlocks();
+
 		registerResourcePack();
+		BlockManager.initializeBlocks();
 		LOGGER.info("Fluxate Factory Loaded!");
 	}
 
